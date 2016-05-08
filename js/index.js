@@ -29,7 +29,7 @@ $(document).ready(function(){
 				}
 			}
 			
-		}, 100)
+		}, 1000)
 	}
 
 	function changeCounter(time, id){
