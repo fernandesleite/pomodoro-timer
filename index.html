@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="title text-center">Pomodoro Clock</h1>
+		<div class="circle" id="start-pause">
+			<span class="counter" id="counter"></span>
+			<span class="start-msg">Click to Start</span>
+		</div>
+		<div class="menu row">
+			<div class="break-menu col-sm-4">
+				<span>Break Length</span>
+				<div  class="buttons">
+					<button class="minus" idtype="break-time">-</button><span id="break-time">5</span><button class="plus" idtype="break-time">+</button>
+				</div>
+			</div>
+			<div class="reset col-sm-4">
+				<button id="reset">Reset</button>
+			</div>
+			<div class="session-menu col-sm-4">
+				<span>Session Length</span>
+				<div class="buttons">
+					<button class="minus" idtype="session-time">-</button><span id="session-time">25</span><button class="plus" idtype="session-time">+</button>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+<!-- TODO: BUTTONS TO INCREASE AND DECREACE THE BREAK AND WORK TIME -->
+
+
+
+
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src="js/index.js"></script>
+</body>
+</html>

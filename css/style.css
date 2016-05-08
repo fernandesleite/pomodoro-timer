@@ -1,0 +1,63 @@
+
+body{
+	background-color: #272727;
+}
+
+.title{
+	margin-bottom: 100px;
+	font-size: 80px;
+	color:white;
+	font-family: ///;
+}
+
+
+.circle{
+	margin:auto;
+	height: 600px;
+	width: 600px;
+	border-radius: 50%;
+	text-align: center;
+	border:solid 10px #ff2c2c;
+}
+.counter{
+	color:white;
+	font-size:150px;
+	line-height: 600px;
+}
+.start-msg{
+	bottom:10px;
+	font-size:20px;
+	color:white;
+}
+
+.menu{
+	color:white;
+	font-size: 20px;
+	margin:auto;
+
+}
+button{
+	background: none;
+	border:none;
+	outline: none;
+	color:white;
+	font-size: 25px;
+	padding: 8px;
+}
+.break-menu{
+	text-align: left;
+
+}
+.session-menu{
+	text-align: right;
+
+}
+.reset{
+	text-align: center;
+}
+.buttons{
+	padding:0 25px;
+}
+
+
+/* design from photoshop */
