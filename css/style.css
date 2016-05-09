@@ -2,6 +2,9 @@
 body{
 	background-color: #272727;
 }
+.container{
+	width: 800px;
+}
 
 .title{
 	margin-bottom: 100px;
