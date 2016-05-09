@@ -50,6 +50,7 @@ $(document).ready(function(){
 		started = undefined;
 		changeCounter(sessionTime[0]);
 		$('.start-msg').html('Click to Start');
+		$('.circle').css({background: '#272727'});
 	}
 	// Start/Pause the timer by clicking inside the circle
 	$("#start-pause").on('click', function(){
