@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var sessionTime = [document.getElementById('session-time').innerHTML, 'Session'];
 	var breakTime = [document.getElementById('break-time').innerHTML,'Break'];
-	var alertSound = new Audio('http://www.oringz.com/oringz-uploads/sounds-917-communication-channel.mp3');
+	var alertSound = new Audio('sounds/soft-bells.mp3');
 	var started;
 	var timer;
 
